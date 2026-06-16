@@ -266,6 +266,9 @@ namespace ConsoleApp1
             Console.WriteLine("Cantidad de vehiculos: " + Vehiculos.Count);
             Console.WriteLine("Distancia total recorrida por la flota: " + distanciaTotalFlota);
             Console.WriteLine("Carga total transportada por la flota: " + cargaTotalFlota);
+
+            Console.WriteLine("Presione una tecla para continuar...");
+            Console.ReadKey();
         }
 
     }
